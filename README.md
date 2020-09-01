@@ -1,1 +1,0 @@
-# Characterizing-and-Pridicting-Early-Reviewrs-on-E-commerce-Website
