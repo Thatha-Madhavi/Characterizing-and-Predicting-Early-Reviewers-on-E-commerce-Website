@@ -55,13 +55,9 @@ The entire system is built using Java, includes Naïve Bayes–based sentiment a
 
 ## 📂 Project Structure
 ├── src/
-
 │   ├── Controller/ 
-
 │   ├── Model/   
-
 │   ├── DAO/  
-
 │   └── Utils/  
 
 │
