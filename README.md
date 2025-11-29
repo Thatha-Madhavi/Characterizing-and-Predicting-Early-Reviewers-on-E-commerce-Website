@@ -55,20 +55,33 @@ The entire system is built using Java, includes Naïve Bayes–based sentiment a
 
 ## 📂 Project Structure
 ├── src/
-│   ├── Controller/          
-│   ├── Model/               
-│   ├── DAO/                 
-│   └── Utils/               
+
+│   ├── Controller/ 
+
+│   ├── Model/   
+
+│   ├── DAO/  
+
+│   └── Utils/  
+
 │
 ├── WebContent/
+
 │   ├── index.jsp
+
 │   ├── login.jsp
+
 │   ├── user/
+
 │   ├── admin/
+
 │   └── charts/
+
 │
 ├── database/
+
 │   └── ecomm_reviews.sql
+
 │
 └── README.md
 
