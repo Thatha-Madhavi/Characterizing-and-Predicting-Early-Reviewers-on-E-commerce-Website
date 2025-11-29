@@ -57,6 +57,7 @@ The entire system is built using Java, includes Naïve Bayes–based sentiment a
 Characterizing-and-Predicting-Early-Reviewers/
 │
 ├── src/
+
 │   ├── controller/        # Java Servlets (login, reviews, admin)
 │   ├── model/             # Java classes (User, Product, Review, Sentiment, Prediction)
 │   ├── dao/               # Database operations (MySQL)
@@ -64,6 +65,7 @@ Characterizing-and-Predicting-Early-Reviewers/
 │   └── ...                # Other Java files
 │
 ├── WebContent/
+
 │   ├── user/              # User JSP pages
 │   ├── admin/             # Admin JSP pages (charts, analysis)
 │   ├── assets/            # CSS, JS, images
@@ -72,14 +74,17 @@ Characterizing-and-Predicting-Early-Reviewers/
 │   └── register.jsp
 │
 ├── database/
+
 │   └── ecomm_reviews.sql  # MySQL database file
 │
 ├── charts/                # Generated charts (pie, bar, line)
 │
 ├── documentation/
+
 │   └── Project_Report.pdf
 │
 ├── config/
+
 │   └── db.properties      # DB credentials
 │
 └── README.md
