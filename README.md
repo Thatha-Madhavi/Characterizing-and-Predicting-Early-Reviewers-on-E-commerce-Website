@@ -54,32 +54,36 @@ The entire system is built using Java, includes Naïve Bayes–based sentiment a
 - Charts: JFreeChart / Chart Libraries
 
 ## 📂 Project Structure
+Characterizing-and-Predicting-Early-Reviewers/
+│
 ├── src/
-│   ├── Controller/ 
-│   ├── Model/   
-│   ├── DAO/  
-│   └── Utils/  
-
+│   ├── controller/        # Java Servlets (login, reviews, admin)
+│   ├── model/             # Java classes (User, Product, Review, Sentiment, Prediction)
+│   ├── dao/               # Database operations (MySQL)
+│   ├── utils/             # DB connection & helper functions
+│   └── ...                # Other Java files
 │
 ├── WebContent/
-
+│   ├── user/              # User JSP pages
+│   ├── admin/             # Admin JSP pages (charts, analysis)
+│   ├── assets/            # CSS, JS, images
 │   ├── index.jsp
-
 │   ├── login.jsp
-
-│   ├── user/
-
-│   ├── admin/
-
-│   └── charts/
-
+│   └── register.jsp
 │
 ├── database/
-
-│   └── ecomm_reviews.sql
-
+│   └── ecomm_reviews.sql  # MySQL database file
+│
+├── charts/                # Generated charts (pie, bar, line)
+│
+├── documentation/
+│   └── Project_Report.pdf
+│
+├── config/
+│   └── db.properties      # DB credentials
 │
 └── README.md
+
 
 ## 📊 Machine Learning Component
 ### Naïve Bayes Sentiment Analysis
